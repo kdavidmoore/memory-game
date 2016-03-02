@@ -1,8 +1,10 @@
 #outer-wrapper {
 	background-color: #fff;
 	height: 60vh;
-	min-height: 400px;
-	float: left;
+	min-height: 450px;
+	max-width: 1000px;
+	overflow: hidden;
+	margin: auto;
 }
 
 #inner-wrapper {
@@ -15,8 +17,9 @@
 }
 
 h3 {
-	color: cyan;
-	font-size: 14px;
+	color: #33ccff;
+	font-size: 16px;
+	font-family: Garamond, serif;
 	margin-left: 10px;
 	display: inline;
 }
@@ -36,11 +39,11 @@ h3 {
 .square.missing {
 	box-sizing: border-box;
 	padding: 8%;
-	background-color: #d3d3d3;
+	background-color: #c0c0c0;
 }
 
 #footer {
-	background-color: cyan;
+	background-color: #33ccff;
 	height: 40vh;
 	clear: both;
 }
