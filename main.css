@@ -1,0 +1,46 @@
+#outer-wrapper {
+	background-color: #fff;
+	height: 60vh;
+	min-height: 400px;
+	float: left;
+}
+
+#inner-wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+#top-info {
+
+}
+
+h3 {
+	color: cyan;
+	font-size: 14px;
+	margin-left: 10px;
+	display: inline;
+}
+
+.square {
+	width: 23%;
+	float: left;
+	display: inline-block;
+	border: 1px solid grey;
+	margin: 3px;
+}
+
+.square img {
+	width: 100%;
+}
+
+.square.missing {
+	box-sizing: border-box;
+	padding: 8%;
+	background-color: #d3d3d3;
+}
+
+#footer {
+	background-color: cyan;
+	height: 40vh;
+	clear: both;
+}
