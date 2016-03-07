@@ -70,19 +70,33 @@ img {
 }
 
 #game-wrapper {
+	float: left;
 	clear: both;
 	overflow: hidden; /* tiles now pass up their dimensions to game-wrapper */
 	position: relative;
 	width: 100%;
 	height: 60%;
+	top: 80px;
+	left: 0;
+	/* min-width: 960px;
+	min-height: 600px; */
 }
 
 .tile {
+	position: absolute;
+	float: left;
 	width: 25%;
 	height: 25%;
 	padding: 10%;
 	box-sizing: border-box;
 	border: 5px solid #fff;
+}
+
+.inside-tile {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .tile-back, .tile-front {
@@ -94,6 +108,8 @@ img {
 }
 
 .tile-back {
+	/* padding: 10%;
+	box-sizing: border-box; */
 	display: block;
 	background: url("img/default/logo-bw.png") 50% 50% no-repeat;
 	/* combines background-image, background-position, and background-repeat */
@@ -114,17 +130,42 @@ img {
 	width: 100%;
 }
 
-#one {
+.one {
 	top: 0;
 	left: 0;
 }
 
-#two {
+.two {
 	top: 0;
 	left: 25%;
 }
 
-#three {
+.three {
 	top: 0;
+	left: 50%;
+}
+
+.four {
+	top:0;
+	left: 75%;
+}
+
+.five {
+	top: 25%;
+	left: 0;
+}
+
+.six {
+	top: 25%;
 	left: 25%;
+}
+
+.seven {
+	top: 25%;
+	left: 50%;
+}
+
+.eight {
+	top: 25%;
+	left: 75%;
 }
