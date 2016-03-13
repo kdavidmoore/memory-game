@@ -1,7 +1,7 @@
 # memory-game
 
-### Day three project
+### Day four project
 
-This is the fourth project for Unit 1. The page shows the layout for a memory game.
+We re-made the memory game project to clean up the structure and pave the way for adding JavaScript later.
 
 [I learned this at DigitalCrafts](https://www.digitalcrafts.com)
